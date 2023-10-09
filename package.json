@@ -35,13 +35,15 @@
     "@angular/platform-browser": "^15.1.4",
     "@angular/platform-browser-dynamic": "^15.1.4",
     "@angular/router": "^15.1.4",
+    "axios": "^1.5.1",
+    "axios-observable": "^2.0.0",
     "bootstrap": "^4.6.0",
-    "rxjs": "^7.8.0",
+    "rxjs": "^7.8.1",
     "serverless": "^3.35.2",
     "serverless-finch": "^4.0.3",
+    "serverless-single-page-app-plugin": "file:./serverless-single-page-app-plugin",
     "tslib": "^2.5.0",
-    "zone.js": "^0.12.0",
-    "serverless-single-page-app-plugin": "file:./serverless-single-page-app-plugin"
+    "zone.js": "^0.12.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.1.5",
